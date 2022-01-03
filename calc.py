@@ -3,14 +3,14 @@ import math
 
 def main():
     menu = """
-Python calculator---------------------------------------------
-|                                                            |
-|    1- Addition                |          2- Subtraction    |
-|    ----------------------------------------------------    |
-|    3- Multiplication          |          4- Division       |
-|    ----------------------------------------------------    |
-|    5- Powers                  |          6- Square root    |
---------------------------------------------------------------
+Python calculator----------------------------------------------------
+|                                                                   |
+|    1- Addition                    |             4- Division       |
+|    -----------------------------------------------------------    |
+|    2- Subtraction                 |             5- Power          |
+|    -----------------------------------------------------------    |
+|    3- Multiplication              |             6- Square root    |
+---------------------------------------------------------------------
 
 Choose an option: """
 
@@ -32,12 +32,14 @@ Choose an option: """
                 elif option == 4:
                     print(f'{message} {first_num % second_num}')
 
-            if option > 5 and option < 7:
+            if option > 4 and option < 7:
                 if option == 5:
-                    pass
+                    main_num = int(input('Enter a base to get the power: '))
+                    power = int(input('Exponent to get power: '))
+                    print(f'{message} {main_num**power}')
 
-                if option == 6:
-                    sqr_num = int(input('Enter a number to get root: '))
+                elif option == 6:
+                    sqr_num = int(input('Enter a number to get square root: '))
                     print(f'{message} {math.sqrt(sqr_num)}')
 
             else:
