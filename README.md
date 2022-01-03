@@ -57,4 +57,4 @@ Choose an option: |
 
 Start use this simple calculator.
 
-##### Made with ❤ in Python by <a href="https://twitter.com/itsarreguin" target="_blank">@itsarreguin</a>
+##### Made with ❤ in Python by <a href="https://twitter.com/itsarreguin">@itsarreguin</a>
