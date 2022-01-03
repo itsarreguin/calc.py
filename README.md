@@ -11,7 +11,7 @@
 ## Usage
 <br>
 
-### Clone reposotory
+### Clone repository
 
 #### Use SSH key:
 ```
