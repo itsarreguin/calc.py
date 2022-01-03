@@ -3,14 +3,14 @@ import math
 
 def main():
     menu = """
-Python calculator by Brandon Arreguin
-
-    1- Addition
-    2- Subtraction
-    3- Multiplication
-    4- Division
-    5- Powers
-    6- Square root
+Python calculator---------------------------------------------
+|                                                            |
+|    1- Addition                |          2- Subtraction    |
+|    ----------------------------------------------------    |
+|    3- Multiplication          |          4- Division       |
+|    ----------------------------------------------------    |
+|    5- Powers                  |          6- Square root    |
+--------------------------------------------------------------
 
 Choose an option: """
 
@@ -42,7 +42,7 @@ Choose an option: """
 
             else:
                 print(' ')
-                print('Invalida option')
+                print('Invalid option')
                 main()
 
     except ValueError:
