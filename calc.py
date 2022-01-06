@@ -52,7 +52,7 @@ Choose an option: """
                     sqr_num = int(input('Enter a number to get square root: '))
                     print(f'{message} {math.sqrt(sqr_num)}')
             if option == 7:
-                print('Close program')
+                print('Closed program')
         else:
             print(' '), clear()
             print('Invalid option')
